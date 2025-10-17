@@ -6,6 +6,8 @@ Repository ini berfungsi sebagai panduan utama bagi semua **kontributor dan kola
 
 Panduan ini dirancang agar kamu bisa berkontribusi dengan cara yang **teratur**, **profesional**, dan **mudah dipahami**, bahkan jika kamu **baru pertama kali** menggunakan Git dan GitHub.
 
+![git flow](https://blog.jetbrains.com/wp-content/uploads/2023/05/git-flow.png)
+
 ---
 
 ## 📚 Daftar Isi
@@ -66,9 +68,6 @@ config:
 ---
       gitGraph
         commit
-        branch hotfix
-        checkout hotfix
-        commit
         branch develop
         checkout develop
         commit id:"ash" tag:"abc"
@@ -76,6 +75,8 @@ config:
         checkout feat/B
         commit type:HIGHLIGHT
         checkout main
+        commit
+        branch hotfix
         checkout hotfix
         commit type:NORMAL
         checkout develop
@@ -107,6 +108,8 @@ config:
         checkout develop
         merge release
 ```
+
+
 
 ### Struktur Utama
 
