@@ -61,7 +61,8 @@ config:
   logLevel: 'debug'
   theme: 'base'
   gitGraph:
-    showBranches: false
+    showBranches: true
+    showCommitLabel: false
 ---
       gitGraph
         commit
